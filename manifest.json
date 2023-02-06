@@ -1,28 +1,30 @@
 {
   "Actions": [
     {
-      "Icon": "actionIcon",
-      "Name": "Counter Good",
+      "Icon": "images/actions/test/action/actionimage",
+      "Name": "Test",
       "States": [
         {
-          "Name": "Template", //TODO: Add state Name
-          "Image": "", //TODO: Add state Background Image
+          "Name": "Test",
+          "Image": "images/actions/test/key/image",
           "TitleAlignment": "middle",
           "FontSize": "16"
         }
       ],
       "SupportedInMultiActions": false,
       "Tooltip": "How many times did you get pwned today? Keep track with this counter.",
-      "UUID": "name.hochsteger.template.action" //TODO: Change action Name
+      "UUID": "name.hochsteger.test.action"
     }
   ],
   "SDKVersion": 2,
   "Author": "Jonas Hochsteger",
   "CodePath": "plugin/plugin.html",
   "PropertyInspectorPath": "pi/pi.html",
-  "Description": "Track the number of times you press a key.",
-  "Name": "Template", //TODO: Change to your plugin name
-  "Icon": "", //TODO: Add plugin icon
+  "Description": "This is a test Project",
+  "Category": "Test",
+  "CategoryIcon": "images/default",
+  "Name": "Test",
+  "Icon": "images/default",
   "Version": "1.0",
   "OS": [
     {
