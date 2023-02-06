@@ -1,0 +1,40 @@
+const ReceiveEvents = {
+    // Look Up under https://developer.elgato.com/documentation/stream-deck/sdk/events-received/
+    didReceiveSettings: "didReceiveSettings",
+    didReceiveGlobalSettings: "didReceiveGlobalSettings",
+    keyDown: "keyDown",
+    keyUp: "keyUp",
+    touchTap: "touchTap",
+    dialPress: "dialPress",
+    dialRotate: "dialRotate",
+    willAppear: "willAppear",
+    willDisappear: "willDisappear",
+    titleParametersDidChange: "titleParametersDidChange",
+    deviceDidConnect: "deviceDidConnect",
+    deviceDidDisconnect: "deviceDidDisconnect",
+    applicationDidLaunch: "applicationDidLaunch",
+    applicationDidTerminate: "applicationDidTerminate",
+    systemDidWakeUp: "systemDidWakeUp",
+    propertyInspectorDidAppear: "propertyInspectorDidAppear",
+    propertyInspectorDidDisappear: "propertyInspectorDidDisappear",
+    sendToPlugin: "sendToPlugin",
+};
+
+const SendEvents = {
+    // Look Up under https://developer.elgato.com/documentation/stream-deck/sdk/events-sent
+    setSettings:  "setSettings",
+    getSettings: "getSettings",
+    setGlobalSettings: "setGlobalSettings",
+    getGlobalSettings: "getGlobalSettings",
+    openUrl: "openUrl",
+    logMessage: "logMessage",
+    setTitle: "setTitle",
+    setImage: "setImage",
+    setFeedback: "setFeedback",
+    setFeedbackLayout: "setFeedbackLayout",
+    showAlert: "showAlert",
+    showOk: "showOk",
+    setState: "setState",
+    switchToProfile: "switchToProfile",
+    sendToPropertyInspector: "sendToPropertyInspector",
+}

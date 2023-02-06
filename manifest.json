@@ -1,0 +1,41 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon",
+      "Name": "Counter Good",
+      "States": [
+        {
+          "Name": "Template", //TODO: Add state Name
+          "Image": "", //TODO: Add state Background Image
+          "TitleAlignment": "middle",
+          "FontSize": "16"
+        }
+      ],
+      "SupportedInMultiActions": false,
+      "Tooltip": "How many times did you get pwned today? Keep track with this counter.",
+      "UUID": "name.hochsteger.template.action" //TODO: Change action Name
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Jonas Hochsteger",
+  "CodePath": "plugin/plugin.html",
+  "PropertyInspectorPath": "pi/pi.html",
+  "Description": "Track the number of times you press a key.",
+  "Name": "Template", //TODO: Change to your plugin name
+  "Icon": "", //TODO: Add plugin icon
+  "Version": "1.0",
+  "OS": [
+    {
+        "Platform": "mac",
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows",
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software":
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
