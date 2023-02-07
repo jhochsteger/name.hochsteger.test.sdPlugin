@@ -30,7 +30,7 @@ class StreamDeckSocketPI {
         this.websocket.onopen = function () {
             let json = {
                 "event": inRegisterEvent,
-                "uuid": inPluginUUID
+                "uuid": inPropertyInspectorUUID
             }
 
             that.websocket.send(JSON.stringify(json));
